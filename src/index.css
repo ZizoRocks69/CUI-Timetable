@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.font-portal-brand {
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+}
+
+@media print {
+  header, #footer-section, #campus-guide-modal, button, #view-mode-table, #view-mode-agenda, #view-mode-courses {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}

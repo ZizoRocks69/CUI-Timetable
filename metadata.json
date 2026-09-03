@@ -1,0 +1,6 @@
+{
+  "name": "COMSATS Timetable Portal",
+  "description": "Comprehensive timetable organizer for COMSATS University Islamabad departments, programs, and sections for Fall 2026 with class timings, rooms, instructors, and off-day highlights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,85 @@
+import { DepartmentInfo } from '../types';
+
+export const DEPARTMENTS: DepartmentInfo[] = [
+  {
+    id: 'physics',
+    name: 'Department of Physics',
+    shortCode: 'PHY',
+    category: 'Natural Sciences',
+    sectionIds: ['elc-1a', 'elc-1b', 'bph-1'],
+  },
+  {
+    id: 'computer-science',
+    name: 'Department of Computer Science',
+    shortCode: 'CS',
+    category: 'Computing',
+    sectionIds: ['bcs-1a', 'bcs-1b', 'bse-1', 'bai-1', 'bds-1', 'bct-1'],
+  },
+  {
+    id: 'electrical-engineering',
+    name: 'Department of Electrical Engineering',
+    shortCode: 'EE',
+    category: 'Engineering',
+    sectionIds: ['bee-1a', 'bee-1b', 'bee-1c', 'eee-1'],
+  },
+  {
+    id: 'computer-engineering',
+    name: 'Department of Computer Engineering',
+    shortCode: 'CE',
+    category: 'Engineering',
+    sectionIds: ['bce-1a', 'bce-1b', 'bce-1c'],
+  },
+  {
+    id: 'management-sciences',
+    name: 'Department of Management Sciences',
+    shortCode: 'MS',
+    category: 'Business & Management',
+    sectionIds: [
+      'bbd-1a', 'bbd-1b', 'bbd-1c-r',
+      'baf-1a', 'baf-1b', 'baf-1c-r',
+      'bba-1a', 'bba-1b', 'bba-1c-r',
+    ],
+  },
+  {
+    id: 'biosciences',
+    name: 'Department of Bio Sciences',
+    shortCode: 'BIO',
+    category: 'Life Sciences',
+    sectionIds: ['bsi-1a', 'bsi-1b', 'bso-1'],
+  },
+  {
+    id: 'chemistry',
+    name: 'Department of Chemistry',
+    shortCode: 'CHM',
+    category: 'Natural Sciences',
+    sectionIds: ['bch-1'],
+  },
+  {
+    id: 'meteorology',
+    name: 'Department of Meteorology',
+    shortCode: 'MET',
+    category: 'Earth & Atmospheric Sciences',
+    sectionIds: ['brg-1'],
+  },
+  {
+    id: 'humanities',
+    name: 'Department of Humanities',
+    shortCode: 'HUM',
+    category: 'Social Sciences & Humanities',
+    sectionIds: ['bpy-1a', 'bpy-1b', 'ben-1', 'bmc-1', 'bir-1'],
+  },
+  {
+    id: 'mathematics',
+    name: 'Department of Mathematics',
+    shortCode: 'MTH',
+    category: 'Mathematical Sciences',
+    sectionIds: ['bmd-1a', 'bmd-1b'],
+  },
+  {
+    id: 'economics',
+    name: 'Department of Economics',
+    shortCode: 'ECO',
+    category: 'Economics & Commerce',
+    sectionIds: ['bed-1a', 'bed-1b'],
+  },
+];
